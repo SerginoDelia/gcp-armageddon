@@ -1,0 +1,16 @@
+# ignore all JSON files (replace with your key file names instead of the asterisk if you want)
+*.json
+
+# Local .terraform directories (contains lock files and provider info)
+**/.terraform/*
+
+# .tfstate files (including backup)
+*.tfstate
+*.tfstate.*
+
+# Ignore all .tfvars files (this is optional, it depends whats in them if you are even using them)
+*.tfvars
+
+# Include tfplan files, this is good practice It appears (if you ever use the -out flag)
+*tfplan*
+

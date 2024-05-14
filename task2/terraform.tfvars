@@ -1,0 +1,19 @@
+# project     = var.project_id
+#   region      = var.region
+#   zone        = var.zone
+#   credentials = var.credentials
+
+project_id        = "iamagwe"
+region            = "us-east1"
+zone              = "us-east1-b"
+credentials       = "iamagwe-40a98105e9fd.json"
+location          = "US"
+google_bucket_url = "https://storage.googleapis.com/"
+network_name      = "task2-network"
+subnet_name       = "task2-subnet"
+ip_cidr_range     = "10.178.0.0/24"
+firewall_name     = "firewall-rule"
+ports             = ["22", "80", "443"]
+source_ranges     = ["0.0.0.0/0"]
+machine_type      = "e2-medium"
+instance_name     = "task2-instance"
